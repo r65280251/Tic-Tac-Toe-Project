@@ -1,0 +1,19 @@
+{
+  "name": "try-itserlf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/@tailwindcss/cli/dist/index.mjs -i ./input.css -o ./output.css --minify",
+    "watch": "node node_modules/@tailwindcss/cli/dist/index.mjs -i ./input.css -o ./output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
